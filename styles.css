@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #a48224;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+#about {
+    padding: 2rem;
+    background-color: #204d6d;
+    color: white; /* Text color for the about section */
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bio {
+    flex: 1;
+}
+
+.profile-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#projects, #contact {
+    padding: 2rem;
+}
+
+#projects {
+    background-color: #ffd700; /* Example background color for projects section */
+}
+
+#contact {
+    background-color: #90ee90; /* Example background color for contact section */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #410c0c;
+    color: white;
+}
